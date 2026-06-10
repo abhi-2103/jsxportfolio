@@ -1,40 +1,21 @@
 function Projects() {
   return (
-    <section id="projects" className="section">
-
+    <section id="projects" className="card projects">
       <h2>Projects</h2>
 
-      <div className="project-grid">
+      <ul>
+        <li>
+          <strong>Portfolio Website</strong> - Built using React JS.
+        </li>
 
-        <div className="project-card">
-          <h3>Cyber Security Threat Detection</h3>
+        <li>
+          <strong>Todo App</strong> - Task Management Application.
+        </li>
 
-          <p>
-            Detects malicious activity using
-            advanced data structures and algorithms.
-          </p>
-        </div>
-
-        <div className="project-card">
-          <h3>Student Management System</h3>
-
-          <p>
-            Full-stack application for
-            managing student records.
-          </p>
-        </div>
-
-        <div className="project-card">
-          <h3>Portfolio Website</h3>
-
-          <p>
-            Responsive personal portfolio
-            developed using React.
-          </p>
-        </div>
-
-      </div>
-
+        <li>
+          <strong>Weather App</strong> - Displays live weather information.
+        </li>
+      </ul>
     </section>
   );
 }

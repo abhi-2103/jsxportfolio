@@ -1,9 +1,7 @@
 function Footer() {
   return (
     <footer className="footer">
-      <p>
-        © 2025 K. Abhilash | KLH University
-      </p>
+      © 2029 K. Abhilash | KLH University Portfolio
     </footer>
   );
 }

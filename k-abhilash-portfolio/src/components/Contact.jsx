@@ -1,19 +1,13 @@
 function Contact() {
   return (
-    <section id="contact" className="section">
+    <section id="contact" className="card contact">
+      <h2>Contact Me</h2>
 
-      <h2>Contact</h2>
-
-      <div className="contact-card">
-
-        <p>Email: kulkarani.abhilash@klh.edu.in</p>
-
-        <p>Phone: +91 9154315552</p>
-
-        <p>Location: Vikarabad, India</p>
-
-      </div>
-
+      <ul>
+        <li>Email: abhilash@gmail.com</li>
+        <li>LinkedIn: linkedin.com/in/abhilash</li>
+        <li>GitHub: github.com/abhilash</li>
+      </ul>
     </section>
   );
 }
